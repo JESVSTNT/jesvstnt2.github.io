@@ -1,0 +1,40 @@
+body{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.celda{
+    width: 100px;
+    height: 100px;
+    border: 1px solid white;
+    color: white;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 7px 1px  #c300ff;
+}
+
+
+
+#tablero{
+    display: flex;
+    flex-wrap: wrap;
+    width: 310px;
+    height: 300px;
+    border: none;
+    box-sizing: border-box;
+}
+
+#ganador{
+    color: #2ff93d;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
